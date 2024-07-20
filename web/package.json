@@ -69,7 +69,8 @@
   },
   "pnpm": {
     "overrides": {
-      "semver@<7.5.2": ">=7.5.2"
+      "semver@<7.5.2": ">=7.5.2",
+      "rollup": "npm:@rollup/wasm-node@latest"
     }
   }
 }
